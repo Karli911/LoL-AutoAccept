@@ -1,4 +1,4 @@
- __Auto Accept League of Legends__
+ # __Auto Accept for League of Legends__
 
 This Python application automatically finds and clicks the "Accept" button in League of Legends, helping you quickly enter matches. It can be configured to run automatically on system startup across different operating systems.
 

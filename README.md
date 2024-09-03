@@ -78,13 +78,11 @@ Enable and Start the Service
 Enable the service to run on boot:
 
 ```bash
-
 sudo systemctl enable auto_accept.service
 ```
 Start the service immediately:
 
 ```bash
-
 sudo systemctl start auto_accept.service
 ```
 ### Usage

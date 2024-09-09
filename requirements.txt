@@ -4,4 +4,4 @@ pyautogui
 keyboard
 Pillow
 plyer
-tk
+tkinter

@@ -1,0 +1,44 @@
+{
+    "en": {
+      "start_message": "Auto Accept Started",
+      "stop_message": "Auto Accept Stopped",
+      "accept_button_clicked": "Accept button found and clicked!",
+      "accept_button_not_found": "Accept button not found. Retrying...",
+      "error": "Error",
+      "max_retries_reached": "Max retries reached. Please check the application.",
+      "hotkey-stop": "Stopping auto-accept using hotkey..."
+    },
+    "es": {
+      "start_message": "Auto Aceptar Iniciado",
+      "stop_message": "Auto Aceptar Detenido",
+      "accept_button_clicked": "¡Botón de aceptar encontrado y pulsado!",
+      "accept_button_not_found": "Botón de aceptar no encontrado. Reintentando...",
+      "error": "Error",
+      "max_retries_reached": "Se alcanzó el máximo de intentos. Por favor, revise la aplicación."
+    },
+    "al": {
+        "start_message": "Pranimi Automatik Nisi",
+        "stop_message": "Pranimi Automatik Ndaloi",
+        "accept_button_clicked": "Buttoni i Pranimit u gjet dhe u klikua!",
+        "accept_button_not_found": "Buttoni i Pranimit nuk u gjet. Duke Riprovuar...",
+        "error": "Gabim",
+        "max_retries_reached": "Maksimumi i provave u arrit. Ju lutem kontrolloni aplikacionin.",
+        "hotkey-stop": "Po ndalohet auto-accept me buton..."
+    },
+    "de": {
+        "start_message": "Automatische Annahme Gestartet",
+        "stop_message": "Automatische Annahme Gestoppt",
+        "accept_button_clicked": "Akzeptieren-Button gefunden und angeklickt!",
+        "accept_button_not_found": "Schaltfläche „Akzeptieren“ nicht gefunden. Erneuter Versuch...",
+        "error": "Fehler",
+        "max_retries_reached": "Maximale Wiederholungsversuche erreicht. Bitte prüfen Sie den Antrag."
+  },
+  "it": {
+    "start_message": "Accettazione automatica avviata",
+      "stop_message": "Accettazione automatica interrotta",
+      "accept_button_clicked": "Pulsante Accetta trovato e cliccato!",
+      "accept_button_not_found": "Pulsante Accetta non trovato. Nuovo tentativo...",
+      "error": "Errore",
+      "max_retries_reached": "Numero massimo di tentativi raggiunto. Si prega di controllare l'applicazione."
+  }
+}

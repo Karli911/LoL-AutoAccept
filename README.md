@@ -60,11 +60,11 @@ This Python application automatically finds and clicks the "Accept" button in Le
 ## **How to run**
 Open your prefered terminal and run `auto-accept.py`.
 1. Windows
- - `python auto-accept.py`
+ `python auto-accept.py`
 2. MacOS
- - `python3 auto-accept.py`
+ `python3 auto-accept.py`
 3. Linux
- - `python3 auto-accept.py`
+ `python3 auto-accept.py`
 
 
 ## **Python Installation Guide**

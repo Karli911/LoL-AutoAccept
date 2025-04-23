@@ -58,7 +58,7 @@ This Python application automatically finds and clicks the "Accept" button in Le
 - **4.** Python should be installed in your system for the script to run in the first place.
 
 ## **How to run**
-- Open your prefered terminal and run `auto-accept.py`
+- Open your prefered terminal and run `auto-accept.py`.
   Windows
     - `python auto-accept.py`
   MacOS

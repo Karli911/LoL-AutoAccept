@@ -55,8 +55,150 @@ This Python application automatically finds and clicks the "Accept" button in Le
 - **1.** Ensure that the *accept_button.png* is located in the same directory as *auto-accept.py*.
 - **2.** Be sure to launch "League of Legends" and not move the window around. Take a screenshot of the "Accept" button and crop it. Cut everything else except the button itself.
 - **3.** Do **NOT** change the resolution of your screen too much. The script will detect the button only from the screenshot taken. If you want this to work in another resolution, make sure to take another screenshot, and replace the *accept_button.png* with the new screenshot.
+- **4.** Python should be installed in your system for the script to run in the first place.
 
-## **Installation**
+## **Python Installation Guide**
+A simple guide to install Python on **Windows**, **macOS**, and **Linux (Ubuntu/Mint)**.
+
+---
+
+## Windows
+
+### 1. Download Python Installer
+
+- Visit the [official Python website](https://www.python.org/downloads/windows/).
+- Click on **"Download Python [version]"** (e.g., Python 3.12.x).
+
+### 2. Run the Installer
+
+- Open the downloaded `.exe` file.
+- **Important**: Check the box **"Add Python to PATH"**.
+- Click **"Install Now"** (or choose **"Customize installation"** for advanced options).
+
+### 3. Verify Installation
+
+Open **Command Prompt** and run:
+
+```sh
+python --version
+```
+
+Expected output:
+
+```
+Python 3.12.x
+```
+
+---
+
+## macOS
+
+### 1. Install Homebrew (if not already installed)
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### 2. Install Python via Homebrew
+
+```sh
+brew install python
+```
+
+### 3. Verify Installation
+
+```sh
+python3 --version
+```
+
+Expected output:
+
+```
+Python 3.12.x
+```
+
+### 4. (Optional) Set Python 3 as Default
+
+```sh
+echo 'alias python=python3' >> ~/.zshrc
+source ~/.zshrc
+```
+
+---
+
+## Linux (Ubuntu / Linux Mint)
+
+### 1. Update Package Lists
+
+```sh
+sudo apt update && sudo apt upgrade
+```
+
+### 2. Install Python
+
+```sh
+sudo apt install python3 python3-pip -y
+```
+
+### 3. Verify Installation
+
+```sh
+python3 --version
+```
+
+Expected output:
+
+```
+Python 3.12.x
+```
+
+### 4. (Optional) Set Python 3 as Default
+
+```sh
+echo "alias python=python3" >> ~/.bashrc
+echo "alias pip=pip3" >> ~/.bashrc
+source ~/.bashrc
+```
+
+---
+
+## Final Tips
+
+- **Install packages using pip:**
+
+```sh
+pip install <package-name>
+```
+
+- **Check pip version:**
+
+```sh
+pip --version
+```
+
+- **Use Virtual Environments (Recommended):**
+
+```sh
+python -m venv myenv
+source myenv/bin/activate  # macOS/Linux
+myenv\\Scripts\\activate     # Windows
+```
+
+> *Pro Tip:* Use a virtual environment for every project to avoid dependency conflicts.
+
+---
+
+## Resources
+
+- [Python Documentation](https://docs.python.org/3/)
+- [pip User Guide](https://pip.pypa.io/en/stable/user_guide/)
+- [Visual Studio Code](https://code.visualstudio.com/) – a great code editor for Python
+
+--- 
+
+
+
+## **App Installation**
 
 ### **1. Windows**
 
@@ -84,7 +226,7 @@ pip install py2app
 python accept-button py2app
 ```
 
-This creates a .app package.
+This creates an .app package.
 Add to Login Items
 
   Open System Preferences -> Users & Groups.

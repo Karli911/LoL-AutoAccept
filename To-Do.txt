@@ -1,0 +1,5 @@
+New features:
+	• Implement dynamic resolution checking for the button.
+
+Fixes:
+	• Fix the app GUI to correctly render the buttons. Possibly using something else aside of Tkinter

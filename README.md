@@ -57,6 +57,16 @@ This Python application automatically finds and clicks the "Accept" button in Le
 - **3.** Do **NOT** change the resolution of your screen too much. The script will detect the button only from the screenshot taken. If you want this to work in another resolution, make sure to take another screenshot, and replace the *accept_button.png* with the new screenshot.
 - **4.** Python should be installed in your system for the script to run in the first place.
 
+## **How to run**
+- Open your prefered terminal and run `auto-accept.py`
+  • Windows
+    - `python auto-accept.py`
+  • MacOS
+    - `python3 auto-accept.py`
+  • Linux
+    - `python3 auto-accept.py`
+
+
 ## **Python Installation Guide**
 A simple guide to install Python on **Windows**, **macOS**, and **Linux (Ubuntu/Mint)**.
 
@@ -197,8 +207,7 @@ myenv\\Scripts\\activate     # Windows
 --- 
 
 
-
-## **App Installation**
+## **App Installation**(Optional)
 
 ### **1. Windows**
 
